@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Happy-Monkey';
+    src: url('../../fonts/HappyMonkey-Regular.ttf') format('truetype');
+}
+
+#marmalade-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+
+}
+
+body {
+    background-color: #EFB0C9;
+    background: linear-gradient(lightskyblue, pink);
+    font-family: 'Happy-Monkey', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    background-color: #a2d2ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 1px #000000;
+}
+
+#bday-age {
+    border: 2px solid #EFB0C9;
+    padding: 5px 10px;
+    background-color: #EFB0C9;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+#bday-date {
+    border: 2px solid #EFB0C9;
+    padding: 5px 10px;
+    background-color: #EFB0C9;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gift-section {
+    margin-top: 25px;
+    text-shadow: 0px 0px 1px #000000;
+}
+
+.gift-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.gift-instructions {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.gift-img {
+    background-image: url('../../images/gift1.avif');
+    background-size: cover;
+    margin: 0px;
+    border: 10px solid #FFFFFF;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+.gift-img:hover {
+    background-image: url('https://tenor.com/view/happy-happy-happy-happy-happy-happy-cat-jumping-happy-cat-gif-17498744034444290732');
+}
